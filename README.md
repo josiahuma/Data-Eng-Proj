@@ -1,2 +1,2 @@
 # Data-Eng-Proj
-Data Engineering Projetcs
+Data Engineering Projects
