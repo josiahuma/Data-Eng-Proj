@@ -3,7 +3,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import datetime
-from weather_data_dag.weather_data import run_weather_etl
+from weather_etl_proj.weather_data import run_weather_etl
 
 default_args = {
     'owner': 'airflow',

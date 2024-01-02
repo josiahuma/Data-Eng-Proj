@@ -79,7 +79,7 @@ def run_weather_etl():
     plt.legend(loc='upper left') # Add a legend
     plt.grid(True)
     #plt.show()
-    plt.savefig('/home/umajosiah/airflow-env/proj/weather_data_dag/Temperature_graph.png')
+    plt.savefig('/home/umajosiah/airflow-env/proj/weather_etl_proj/Temperature_graph.png')
 
 
     rain_value = df['Rain Volumn (mm)'].sum()
@@ -93,7 +93,7 @@ def run_weather_etl():
     plt.legend(loc='upper left') # Add a legend
     plt.grid(True)
     #plt.show()
-    plt.savefig('/home/umajosiah/airflow-env/proj/weather_data_dag/Rain_graph.png')
+    plt.savefig('/home/umajosiah/airflow-env/proj/weather_etl_proj/Rain_graph.png')
 
 
     # Database Credentials
